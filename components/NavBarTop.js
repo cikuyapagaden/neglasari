@@ -127,7 +127,6 @@ useEffect(() => {
                         </a>
                     </Link>
 
-                    <div className="nav-link ms-auto order-0 order-xl-1" aria-current="page"><ThemeToggle /></div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                         <i className="icon-toggle"><FaBars /></i>
                     </button>
@@ -259,7 +258,9 @@ useEffect(() => {
                             <li className="nav-item ms-lg-1">
                                 <a className="nav-link" aria-current="page"><ThemeToggle /></a>
                             </li> */}
+                    <div className="nav-link ms-auto order-0 order-xl-1" aria-current="page"><ThemeToggle /></div>
                         </ul>
+                            
                     </div>
                 </div>
             </nav>
